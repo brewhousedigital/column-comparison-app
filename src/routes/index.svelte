@@ -140,10 +140,10 @@
 
         <div class="row">
             <div class="col-auto h-100" style="width: 200px">
-                <p class="fw-bold">Unique ID</p>
+                <p class="fw-bold">Optional Unique ID</p>
                 <p>{column0RowCount} rows total</p>
                 <div class="d-flex">
-                    <ol style="margin-top: 7px">{#each Array(column0RowCount) as item}<li></li>{/each}</ol>
+                    <ol style="margin-top: 7px;padding-left: 17px;">{#each Array(column0RowCount) as item}<li></li>{/each}</ol>
                     <textarea class="form-control"
                               rows={column0RowCount}
                               bind:value={column0}
@@ -155,7 +155,7 @@
                 <p class="fw-bold">Column 1 Data</p>
                 <p>{column1RowCount} rows total</p>
                 <div class="d-flex">
-                    <ol style="margin-top: 7px">{#each Array(column1RowCount) as item}<li></li>{/each}</ol>
+                    <ol style="margin-top: 7px;padding-left: 17px;">{#each Array(column1RowCount) as item}<li></li>{/each}</ol>
                     <textarea class="form-control"
                               rows={column1RowCount}
                               bind:value={column1}
@@ -167,7 +167,7 @@
                 <p class="fw-bold">Column 2 Data</p>
                 <p>{column2RowCount} rows total</p>
                 <div class="d-flex">
-                    <ol style="margin-top: 7px">{#each Array(column2RowCount) as item}<li></li>{/each}</ol>
+                    <ol style="margin-top: 7px;padding-left: 17px;">{#each Array(column2RowCount) as item}<li></li>{/each}</ol>
                     <textarea class="form-control"
                               rows={column2RowCount}
                               bind:value={column2}
