@@ -1,0 +1,17 @@
+{
+  "name": "column-comparison-app",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "svelte-kit dev --port 390",
+    "dev": "svelte-kit dev --port 390",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0",
+    "@sveltejs/adapter-netlify": "1.0.0-next.45"
+  },
+  "type": "module"
+}
