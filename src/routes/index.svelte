@@ -152,7 +152,7 @@
             </div><!-- end col -->
 
             <div class="col h-100">
-                <p class="fw-bold">Column 1 Data</p>
+                <p class="fw-bold">Column 1 Data (long list)</p>
                 <p>{column1RowCount} rows total</p>
                 <div class="d-flex">
                     <ol style="margin-top: 7px;padding-left: 17px;">{#each Array(column1RowCount) as item}<li></li>{/each}</ol>
@@ -164,7 +164,7 @@
             </div><!-- end col -->
 
             <div class="col h-100">
-                <p class="fw-bold">Column 2 Data</p>
+                <p class="fw-bold">Column 2 Data (short list)</p>
                 <p>{column2RowCount} rows total</p>
                 <div class="d-flex">
                     <ol style="margin-top: 7px;padding-left: 17px;">{#each Array(column2RowCount) as item}<li></li>{/each}</ol>
